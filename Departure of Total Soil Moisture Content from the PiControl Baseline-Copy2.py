@@ -26,7 +26,7 @@ df = pd.read_csv('https://storage.googleapis.com/cmip6/cmip6-zarr-consolidated-s
 
 
 ### Loading the ESMs' output into the environment.
-### Model downloaded this way in the future may not be the same as the models used in the paper due to the database being constantly updated
+### Model downloaded this way in the future (after 25 June 2022) may not be the same as the models used in the paper due to the database being constantly updated
 
 model = ['ACCESS-CM2', 'CanESM5', 'CESM2', 'CESM2-WACCM', 'CNRM-CM6-1', 'CNRM-ESM2-1', 'EC-Earth3', 'EC-Earth3-Veg', 
          'GFDL-ESM4', 'IPSL-CM6A-LR', 'MIROC6', 'MIROC-ES2L', 'MPI-ESM1-2-HR', 'UKESM1-0-LL']
